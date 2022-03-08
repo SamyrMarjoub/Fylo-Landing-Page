@@ -1,0 +1,623 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200&family=Barlow:wght@100&family=Forum&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200&family=Barlow:wght@100&family=Forum&family=Open+Sans:ital,wght@0,300;1,300&family=Raleway:wght@100;200&display=swap');
+html, body{
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+header{
+    width: 100%;
+    height: 100px;
+
+}
+.container-head{
+    width: 90%;
+    background-color: white;
+    margin-left: 5%;
+ 
+  margin-top: 40px;
+  display: flex;
+
+align-items: center;
+}
+.container-head img{
+    width: 130px;
+}
+.container-head li{
+    display: inline;
+    padding: 0;
+    margin: 0;
+    margin-right: 40px;
+
+}
+.container-head a{
+    list-style: none;
+    text-decoration: none;
+    font-size: 22px;
+    display: inline-block;
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Forum', cursive;
+    font-weight: 600;
+   color: hsl(238, 22%, 44%);
+}
+.list{
+   justify-self: flex-end;
+}
+.list ul{
+    max-width: 320px;
+}
+.container-img{
+    flex: 1;
+}
+main{
+    width: 90%;
+    margin-left: 5%;
+    height: auto;
+    margin-top: 200px;
+    display: flex;
+    align-content: center;
+}
+.textcon{
+    flex: 2;
+}
+.imgcon{
+    justify-self:end;
+    margin-top: -100px;
+    align-self: flex-end;
+}
+.imgcon img{
+    width: 500px;
+    
+}
+.textcon h1{
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Forum', cursive;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+color: #09043c;
+font-weight: 900;
+font-size: 50px;
+}
+.textcon h2{
+    font-size: 20px;
+    color: #0f0c2b;
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Forum', cursive;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+.input{
+    height: 30px;
+    width: 400px;
+}
+.textcon button{
+    margin-left: 1%;
+    width: 200px;
+    height: 40px;
+    background-color: #2f65f9;
+    border-radius: 5PX;
+    outline: none;
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+    cursor: pointer;
+}
+.img-curva{
+    width: 100%;
+    height: 50px;
+   margin-top: 370px;
+}
+.bg-color{
+    width: 100%;
+    height: auto;
+    background-color: #f9f8fe;
+    margin-top: -5px;
+}
+.txtpart{
+flex: 1;
+}
+.container2{
+    display: flex;
+    width: 90%;
+    margin-left: 5%;
+    padding-bottom: 100px   ;
+}
+.txtpart h1{
+    font-size: 50px;
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Forum', cursive;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+.txtpart p{
+color: #0f0d23;
+font-family: 'Barlow', sans-serif;
+font-family: 'Barlow Condensed', sans-serif;
+font-family: 'Forum', cursive;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-weight: 600;
+}
+.imgpart img{
+    width: 500px;
+}
+.imgpart{
+    justify-content: flex-end;
+   
+}
+.butao{
+    display: flex;
+    margin-top: 50px;
+    
+}
+.butao a{
+    color: hsl(170, 45%, 43%);
+    border-bottom: 1px solid green;
+    text-decoration: none;
+    padding-bottom: 4px;
+    padding-right: 20px;
+}
+.arrowimg{
+    justify-self: flex-end;
+    align-self: flex-end;
+    margin-left: -15px;
+}
+.butao a:hover{
+    color: hsl(170, 71%, 46%);
+}
+.box-comment{
+    width: 300px;
+    height: 160px;
+    background-color: white;
+    margin-top: 50px;
+    box-shadow: 1px 1px 5px 3px rgb(10 10 100 / 20%);
+   
+}
+.aspas{
+    margin-top: 20px;
+    float: left;
+    margin-left: 30px;
+}
+.box-comment p{
+    font-size: 12px;
+    float: left;
+    width: 250px;
+    margin-top: 50px;
+    margin-left: -15px;
+color: #09043c;
+
+}
+
+.profile img{
+    width: 30px;
+     margin-top: 120px; 
+     margin-left: -250px;
+     border-radius: 50px;
+}
+.name{
+    margin-left: 70px;
+    font-size: 12px;
+    margin-top: -50px;
+    color: #0f0d23;
+font-weight: 900;
+}
+.title{
+    font-size: 10px;
+    margin-left: 70px;
+    margin-top: -10px;
+}
+.container3{
+width: 100%;
+height: 350px;
+background-color: #575989;
+}
+.containerA{
+width: 90%;
+margin-left: 5%;
+display: flex;
+float: left;
+margin-top: 70px;
+}
+.containerA h1{
+    font-size: 40px;
+    color: white ;
+    font-family: 'Barlow', sans-serif;
+font-family: 'Barlow Condensed', sans-serif;
+font-family: 'Forum', cursive;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-weight: 900;
+}
+.containerA p{
+    font-size: 22px;
+    color: white;
+}
+.text{
+    flex: 1;
+}
+.email{
+  flex: 1;
+ align-items: center;
+ margin-top: 70px;
+}
+.email input{
+    width: 450px;
+    height: 40px;
+}
+.email button{
+    margin-top: 10px;
+    height: 40px;
+    width: 200px;
+    background-color: #2f65f9;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-weight: 800;
+}
+footer{
+    width: 100%;
+    height: 400px;
+    background-color: #07043b;
+}
+.footer-container{
+    width: 90%;
+    margin-left: 5%;
+    display: flex;
+    float: left;
+    margin-top: 100px;
+}
+.f-1{
+    flex: 1;
+}
+.f-2{
+    flex: 1;
+}
+.f-3{
+    flex: 1;
+}
+.f-4{
+    flex: 1;
+}
+.emailf{
+    list-style-image: url('./images/icon-email.svg');
+    color: white;
+
+}
+.footer-container img{
+    margin-bottom: 30px;
+    margin-left: -30px;
+}
+.phone{
+    list-style-image: url('./images/icon-phone.svg');
+    color: white;
+}
+.footer-container li{
+    margin-bottom: 10px;
+    color: white;
+}
+.limg{
+    list-style: none;
+}
+.f-2 li{
+    list-style: none; 
+}
+ .f-3 li{
+    list-style: none;
+}
+.f-4 li{
+    list-style: none;
+}
+.f-2 ul{
+margin-top: 100px;
+}
+.f-3 ul{
+    margin-top: 100px;
+    }
+    .f-4 ul{
+        margin-top: 100px;
+        }
+.facebook{
+    width: 30px;
+    margin-right: 30px;
+}
+.twitter{
+    width: 40px;
+    margin-right: 30px;
+
+}
+.insta{
+    width: 30px;
+
+}
+.individual{
+    display: inline;
+}
+.social{
+    display: inline-block;
+}
+
+.footer-container a{
+   text-decoration: none;
+    color: white;
+}
+.footer-container a:hover{
+   color: #2f65f9;
+}
+.email button{
+    cursor: pointer;
+}
+@media screen and (max-width:1242px) {
+    .textcon button{
+margin-top: 10px;
+margin-left: 0px;
+    }
+}
+@media screen and (max-width:975px) {
+    main{
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+    }
+    .imgcon{
+       justify-self: center;
+       align-self: center;
+        width: 100%;
+        
+    }
+    .imgcon img{
+        margin-left: 20%;
+    }
+    .textcon{
+        justify-self: flex-end;
+        align-self: flex-end;
+       
+        width: 100%;
+
+    }
+    .textcon H1{
+        font-size: 40PX;
+        text-align: center;
+    }
+    .textcon h2{
+        text-align: center;
+    }
+    .textcon .input{
+       width: 90%;
+       margin-left: 5%;
+    }
+    .textcon button{
+        margin-left: 35%;
+    }
+    .container2{
+        flex-direction: column-reverse;
+    }
+    .imgpart {
+       justify-self: center;
+       align-self: center;
+    }
+    .box-comment{
+        height: 250px;
+        width: 350px;
+       box-shadow:  0 14px 28px rgb(0 0 0 / 10%);
+    }
+    .txtpart .txt{
+        font-size: 20px;
+    }
+    .butao a{
+        font-size: 20px;
+    }
+    .avatar img{
+        margin-top: 170px;
+        width: 50PX;
+    }
+    .profile h3{
+        margin-left: 20px;
+        font-size: 20px;
+        margin-top: -10px;
+    }
+   .title span{
+       font-size: 16px;
+   }
+   .title{
+       margin-left: 90px;
+       margin-top: -20px;
+   }
+   .box-comment p{
+       font-size: 14px;
+     letter-spacing: 2px;
+   font-family: 'Raleway';
+   }
+   .containerA{
+       flex-direction: column;
+       margin-top: 10px;
+   }
+.text{
+    justify-self: center;
+    align-self: center;
+flex: none;
+}
+.email{
+    flex: none;
+    margin-top: 20px;
+    align-self: center;
+}
+.text h1{
+    text-align: center;
+}
+.text p{
+    text-align: center;
+}
+.email input{
+   width: 250px;
+}
+.container3 button{
+    width: 200px;
+    margin-left: 10%;
+    font-size: 15px;
+    font-weight: 600;
+}
+.aspas-img{
+    width: 20px;
+}
+}
+@media screen and (max-width:750px) {
+    .imgcon img{
+        margin-left: 15%;
+    }
+}
+@media screen and (max-width:667px) {
+.textcon button{
+    width: 92%;
+    margin-left: 5%;
+    height: 50px;
+}
+.textcon .input{
+    height: 45px;
+}
+.email input{
+    width: 90%;
+    margin-left: 5%;
+}
+.email button{
+    width: 91%;
+    margin-left: 5%;
+}
+.email{
+    width: 100%;
+}
+
+}
+
+@media screen and (max-width:600px) {
+    .imgcon img{
+        margin-left: 5%;
+    } 
+    .social{
+        display: block;
+        margin-top: -50px;
+    }
+    .social li{
+        display: block;
+        margin-bottom: 0px;
+    }
+    .facebook{
+        margin-right: 0PX;
+    }
+    .twitter{
+        margin-right: 0px;
+    }
+    .footer-container{
+        margin-top: 50px;
+    }
+    
+}
+
+@media screen and (max-width:532px) {
+    .container3{
+        padding-bottom: 50px;
+    }
+    .container-head a{
+        font-size: 18px;
+       
+    }
+    .container-head img{
+        width: 110px;
+    }
+    .container-head li{
+        margin-right: 10px;
+    }
+    .imgpart img{
+width: 80%;
+margin-left: 10%;
+    }
+    .imgcon img{
+        width: 80%;
+        margin-left: 15%  
+    }
+}
+@media screen and (max-width:500px) {
+    .footer-container{
+        flex-direction: column;
+        justify-content: start;
+        align-items: flex-start;
+    }
+    footer{
+        height: 600px;
+    }
+    .f-1 li{
+        margin-top: 0;
+        margin-bottom: 30;
+
+    }
+    .f-2 li{
+        margin: 0;
+        margin-bottom: 10px;
+    } .f-3 li{
+        margin: 0;
+        margin-bottom: 10px;
+
+    }
+    .f-4 li{
+        margin: 0;
+        display: inline;
+        margin-right: 50px;
+    }
+    .f-4 ul{
+display: inline-block;
+margin-top: 0px;
+margin-left: 0PX;
+ margin-top: 30px;
+
+    }
+    .f-3 ul{
+   display: block;
+   margin-bottom:0px;
+   margin-left: -20PX;
+   margin-top: 30px;
+        } 
+.f-2 ul{
+display:block;
+ margin-bottom:0px;
+ margin-left: -20PX;
+ margin-top: 30px;
+ 
+} .f-1 ul{
+display: block;
+ margin-bottom:0px;
+ }
+}
+
+@media screen and (max-width:450px) {
+    .container3{
+        padding-bottom: 100px;
+    }
+}
+
+@media screen and (max-width:388px) {
+    .box-comment{  
+        width: auto;
+    }
+    .container-head img{
+width: 70px;
+    }
+}
+
+@media screen and (max-width:315px) {
+    .container3{
+        padding-bottom: 120px;
+    }
+    .box-comment p {
+        font-size: 10px;
+    }
+}
+
+
+
+
