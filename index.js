@@ -4,3 +4,4 @@ if(windowWidth <=975){
     img.setAttribute('src', './images/bg-curve-mobile.svg')
     console.log(windowWidth)
 }
+//
