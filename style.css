@@ -607,6 +607,9 @@ display: block;
     .container-head img{
 width: 70px;
     }
+    .container3{
+        padding-bottom: 110px;
+    }
 }
 
 @media screen and (max-width:315px) {
