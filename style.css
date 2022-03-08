@@ -522,6 +522,7 @@ flex: none;
 @media screen and (max-width:532px) {
     .container3{
         padding-bottom: 50px;
+        height: 420px;
     }
     .container-head a{
         font-size: 18px;
